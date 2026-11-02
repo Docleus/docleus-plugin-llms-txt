@@ -1,0 +1,37 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`published sites > serve /llms.txt with a link to every page 1`] = `
+"# Handbook
+
+## Docs
+
+- [Introduction](./)
+- [Guide](./guide/)
+- [Advanced](./guide/advanced/)
+"
+`;
+
+exports[`published sites > serve /llms-full.txt with every page as Markdown 1`] = `
+"# Handbook
+
+# Introduction
+
+URL: ./
+
+Welcome to *Acme*.
+
+# Guide
+
+URL: ./guide/
+
+Read this first.
+
+Then <kbd>continue</kbd>.
+
+# Advanced
+
+URL: ./guide/advanced/
+
+Only for experts.
+"
+`;

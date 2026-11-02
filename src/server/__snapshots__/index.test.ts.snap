@@ -1,0 +1,45 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`llmsFullTxt > prints every page with its URL and Markdown body 1`] = `
+"# Acme Docs
+
+# Introduction
+
+URL: ./
+
+Welcome to *Acme*.
+
+# Install
+
+URL: ./install/
+
+## Steps
+
+Run the installer.
+
+# Linux [beta]
+
+URL: ./install/linux/
+
+Use the package.
+
+# API reference
+
+URL: ./api/
+"
+`;
+
+exports[`llmsTxt > lists every page under a section per space 1`] = `
+"# Acme Docs
+
+## Guides
+
+- [Introduction](./)
+- [Install](./install/)
+- [Linux \\[beta\\]](./install/linux/)
+
+## API
+
+- [API reference](./api/)
+"
+`;
